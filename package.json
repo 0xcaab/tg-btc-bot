@@ -1,0 +1,19 @@
+{
+  "name": "tg-btc-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for BTC price tracking and alerts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^17.2.0",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
